@@ -1,7 +1,7 @@
 import Body from './Body';
 import NavBar from './NavBar';
 
-function App() {
+export default function App() {
   return(
   <div>
     <Body />
@@ -9,4 +9,3 @@ function App() {
   </div>
   )
 }
-export default App()
