@@ -173,6 +173,12 @@ body {
   height: 32px;
   margin-right: 10px;
 }
+.vermelho {
+  color: red;
+}
+.preto{
+  color: black
+}
 
 .post .usuario,
 .post .topo img,
@@ -183,6 +189,9 @@ body {
 .usuario>img,
 .conteudo>img {
   cursor: pointer;
+}
+.usuario>img, .curtidas>img {
+  border-radius: 100%;
 }
 
 .post .conteudo img {
